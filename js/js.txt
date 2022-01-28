@@ -1,0 +1,7 @@
+async function fetchData() {
+    //quand je met async c'est pour signaler à javascript que je compte faire de l'asynchrone
+    await fetch('monLien')
+    //et quand je met await je montre ou il faut que js fasse de l'asyncrone et ont lui dit carrèment d'attendre que cette ligne de code soit éxécuter avant de passer à la suivante
+
+    executeFonction()
+}
